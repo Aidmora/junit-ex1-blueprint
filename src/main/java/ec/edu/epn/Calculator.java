@@ -3,6 +3,7 @@ package ec.edu.epn;
 public class Calculator {
     /**
      * Adds two integers.
+     * 
      * @param a The first number.
      * @param b The second number.
      * @return The sum of a and b.
@@ -13,6 +14,7 @@ public class Calculator {
 
     /**
      * Subtracts the second number from the first.
+     * 
      * @param a The number to subtract from.
      * @param b The number to subtract.
      * @return The difference between a and b.
@@ -23,6 +25,7 @@ public class Calculator {
 
     /**
      * Multiplies two integers.
+     * 
      * @param a The first number.
      * @param b The second number.
      * @return The product of a and b.
@@ -34,6 +37,7 @@ public class Calculator {
     /**
      * Divides the first number by the second.
      * Note: Throws an exception if the divisor is zero.
+     * 
      * @param a The numerator (dividend).
      * @param b The divisor.
      * @return The quotient of the division.
@@ -50,6 +54,7 @@ public class Calculator {
 
     /**
      * Checks if a number is even.
+     * 
      * @param number The number to check.
      * @return true if the number is even, false otherwise.
      */
