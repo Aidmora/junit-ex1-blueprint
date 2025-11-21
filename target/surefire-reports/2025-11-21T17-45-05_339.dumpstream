@@ -1,4 +1,4 @@
-# Created at 2025-11-20T17:23:05.725
+# Created at 2025-11-21T17:45:05.565
 Boot Manifest-JAR contains absolute paths in classpath 'D:\verificacionyvalidacion\repoGitHubPracticas\junit-ex1-blueprint\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

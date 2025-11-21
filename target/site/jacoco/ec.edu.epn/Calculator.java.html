@@ -20,7 +20,7 @@
      * @return The difference between a and b.
      */
     public int subtract(int a, int b) {
-<span class="nc" id="L23">        return a - b;</span>
+<span class="fc" id="L23">        return a - b;</span>
     }
 
     /**
@@ -31,7 +31,7 @@
      * @return The product of a and b.
      */
     public int multiply(int a, int b) {
-<span class="nc" id="L34">        return a * b;</span>
+<span class="fc" id="L34">        return a * b;</span>
     }
 
     /**
@@ -44,12 +44,12 @@
      * @throws IllegalArgumentException If the divisor (b) is zero.
      */
     public double divide(int a, int b) {
-<span class="nc bnc" id="L47" title="All 2 branches missed.">        if (b == 0) {</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">        if (b == 0) {</span>
             // It's good practice to throw a standard exception for invalid input errors.
-<span class="nc" id="L49">            throw new IllegalArgumentException(&quot;The divisor cannot be zero.&quot;);</span>
+<span class="fc" id="L49">            throw new IllegalArgumentException(&quot;The divisor cannot be zero.&quot;);</span>
         }
         // Cast to (double) to ensure floating-point division, even with integers.
-<span class="nc" id="L52">        return (double) a / b;</span>
+<span class="fc" id="L52">        return (double) a / b;</span>
     }
 
     /**
@@ -59,7 +59,7 @@
      * @return true if the number is even, false otherwise.
      */
     public boolean isEven(int number) {
-<span class="nc bnc" id="L62" title="All 2 branches missed.">        return number % 2 == 0;</span>
+<span class="pc bpc" id="L62" title="1 of 2 branches missed.">        return number % 2 == 0;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

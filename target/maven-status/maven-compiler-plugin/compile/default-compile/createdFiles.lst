@@ -1,2 +1,4 @@
 ec\edu\epn\Calculator.class
 ec\edu\epn\StringValidator.class
+ec\edu\epn\EmailValidator.class
+ec\edu\epn\TaxCalculator.class
