@@ -1,5 +1,6 @@
 package ec.edu.epn;
 
+import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -22,17 +23,6 @@ public class CalculatorTest {
 
     @AfterEach
     void tearDown() {
-        // // If Calculator later implements AutoCloseable or holds resources,
-        // // close them safely to avoid resource leaks.
-        // if (calculator instanceof AutoCloseable) {
-        // try {
-        // ((AutoCloseable) calculator).close();
-        // } catch (Exception e) {
-        // // Fail the test teardown if closing resources fails so the
-        // // issue is visible during CI runs.
-        // throw new RuntimeException("Failed to close calculator", e);
-        // }
-        // }
         calculator = null;
     }
 
@@ -79,6 +69,10 @@ public class CalculatorTest {
         double result = calculator.divide(a, b);
         // Assert - verificación del resultado
         assertEquals(2.5, result, 0.0001, "la división de 10 / 2 debe ser 5");
+
+        assertAll(
+                () -> assertTrue(result > 0),
+                () -> assertEquals(2.5, result, 0.0001, "la división de 10 / 2 debe ser 5"));
         // Delta sirve para una tolerancia de decimales
     }
 

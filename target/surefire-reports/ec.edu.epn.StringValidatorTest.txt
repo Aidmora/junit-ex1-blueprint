@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: ec.edu.epn.CalculatorTest
+Test set: ec.edu.epn.StringValidatorTest
 -------------------------------------------------------------------------------
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.346 s -- in ec.edu.epn.CalculatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in ec.edu.epn.StringValidatorTest

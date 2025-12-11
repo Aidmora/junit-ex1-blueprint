@@ -34,3 +34,4 @@ public class TaxCalculatorTest {
         assertEquals(expected, result, 0.001, "El cálculo del impuesto es incorrecto");
     }
 }
+                
